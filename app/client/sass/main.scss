@@ -1,0 +1,30 @@
+@import 
+	'partials/reset',
+	'partials/variables',
+	'partials/header'
+	;
+
+body {
+  background: $white;
+  color: $grey;
+  font-family: $fontFamily;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: $green;
+	text-decoration: none;
+
+	&:hover {
+		color: lighten($green, 20%);
+	}
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0 1em;
+}
