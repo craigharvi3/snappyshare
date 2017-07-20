@@ -2,31 +2,25 @@ import React from 'react';
 import LinkPreview from './LinkPreview';
 
 const LinkList = props => {
-	if (!props.links) {
-		return (
-			<div className="link-preview">Loading...</div>
-		);
-	}
+  if (!props.links) {
+    return (<span></span>);
+  }
 
-	if (props.links.length === 0) {
-		return (
-			<div className="link-preview">
-				No links are here... yet.
-			</div>
-		);
-	}
+  if (props.links.length === 0) {
+    return (<span></span>);
+  }
 
-	return (
-		<div>
-			{
-				props.links.map(link => {
-					return (
-						<LinkPreview link={link} key={link.url} />
-					);
-				})
-			}
-		</div>
-	);
+  return (
+    <ul className="link-list group">
+      {
+        props.links.map((link, index) => {
+          return (
+            <LinkPreview link={link} key={index} />
+          );
+        })
+      }
+    </ul>
+  );
 };
 
 export default LinkList;

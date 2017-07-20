@@ -46,8 +46,9 @@ table {
 /* Colours */
 /* Fonts */
 nav {
-  padding: 1em 0;
-  margin: 0 0 1em 0;
+  padding: 1.5em 0;
+  margin: 0 0 1.5em 0;
+  border-bottom: 1px solid #49A078;
 }
 
 nav .navbar-brand {
@@ -66,10 +67,113 @@ nav .navbar-nav .nav-item {
   margin-left: 0.5em;
 }
 
+form input[type=text] {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  outline: none;
+}
+
+form input[type=text]::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #87c8aa;
+}
+
+form input[type=text]::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #87c8aa;
+}
+
+form input[type=text]:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #87c8aa;
+}
+
+form input[type=text]:-moz-placeholder {
+  /* Firefox 18- */
+  color: #87c8aa;
+}
+
+form .control {
+  padding: 0 0 16px 0;
+}
+
+.link-list {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.link-list li {
+  font-size: 15px;
+}
+
+@media (min-width: 600px) {
+  .link-list li {
+    float: left;
+    height: 300px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .link-list li {
+    width: 33.33%;
+  }
+}
+
+.link-list p {
+  line-height: 1.4;
+}
+
+@media (min-width: 600px) {
+  .link-list {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+
+.link-preview a {
+  display: block;
+  padding: 8px;
+}
+
+@media (min-width: 600px) {
+  .link-preview a {
+    padding: 16px;
+  }
+}
+
+.link-preview .link-preview-image {
+  width: 100%;
+  height: 250px;
+  background-color: #e4e4e4;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 600px) {
+  .link-preview .link-preview-image {
+    height: 200px;
+  }
+}
+
+@media (min-width: 800px) {
+  .link-preview .link-preview-image {
+    height: 200px;
+  }
+}
+
 body {
-  background: #F6F8FF;
+  background: #FFFFFF;
   color: #788585;
   font-family: sans-serif;
+  font-size: 15px;
+}
+
+* {
+  font-size: 15px;
+  box-sizing: border-box;
 }
 
 ul {
@@ -85,8 +189,25 @@ a:hover {
   color: #87c8aa;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
   padding: 0 1em;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

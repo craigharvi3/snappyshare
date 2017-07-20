@@ -1,46 +1,68 @@
 [
-	{  
+  {
    "url":"http://mmajunkie.com/2017/07/floyd-mayweather-underhanded-tactics-conor-mcgregor-victor-ortiz",
    "loadFailed":false,
    "title":"Floyd Mayweather prone to underhanded tactics; should Conor McGregor be worried? | MMAjunkie",
    "description":"Some are focused on whether Conor McGregor would resort to using MMA. But what about Floyd Mayweather's history of underhanded tactics?",
    "contentType":"text/html",
    "mediaType":"article",
-   "images":[  
-    	"https://usatmmajunkie.files.wordpress.com/2017/07/floyd-mayweather-victor-ortiz.jpg"
-   	]
-	},
-	{
-		"url": "http://mmajunkie.com/",
-		"loadFailed": false,
-		"title": "MMAjunkie | UFC and MMA news, rumors, live blogs and videos",
-		"description": "UFC and MMA news, rumors, live blogs and videos",
-		"contentType": "text/html",
-		"mediaType": "website",
-		"images": [
-			"http://0.gravatar.com/blavatar/2bca1d844f05b69f1f0b535fc8139f0b?s=200&amp;ts=1500459765"
-		]
-	},
-	{
-		"url": "https://github.com/myspace/page-previewer",
-		"loadFailed": false,
-		"title": "GitHub - myspace/page-previewer: Node web page preview",
-		"description": "page-previewer - Node web page preview",
-		"contentType": "text/html",
-		"mediaType": "object",
-		"images": [
-			"https://avatars0.githubusercontent.com/u/133458?v=4&amp;s=400"
-		]
-	},
-	{
-		"url": "https://cdn.vox-cdn.com/thumbor/ZIspYmVlXr6shMEkTlktICoDjzU=/0x0:1920x1280/1200x800/filters:focal(862x123:1168x429)/cdn.vox-cdn.com/uploads/chorus_image/image/55721909/013_Mayweather_vs_McGregor_Press_Conference.0.jpg",
-		"loadFailed": false,
-		"title": "",
-		"description": "",
-		"contentType": "image/jpeg",
-		"mediaType": "photo",
-		"images": [
-			"https://cdn.vox-cdn.com/thumbor/ZIspYmVlXr6shMEkTlktICoDjzU=/0x0:1920x1280/1200x800/filters:focal(862x123:1168x429)/cdn.vox-cdn.com/uploads/chorus_image/image/55721909/013_Mayweather_vs_McGregor_Press_Conference.0.jpg"
-		]
-	}
+   "images":[
+      "https://usatmmajunkie.files.wordpress.com/2017/07/floyd-mayweather-victor-ortiz.jpg"
+    ]
+  },
+  {
+    "url": "http://mmajunkie.com/",
+    "loadFailed": false,
+    "title": "MMAjunkie | UFC and MMA news, rumors, live blogs and videos",
+    "description": "UFC and MMA news, rumors, live blogs and videos",
+    "contentType": "text/html",
+    "mediaType": "website",
+    "images": [
+      "http://0.gravatar.com/blavatar/2bca1d844f05b69f1f0b535fc8139f0b?s=200&amp;ts=1500459765"
+    ]
+  },
+  {
+    "url": "https://github.com/myspace/page-previewer",
+    "loadFailed": false,
+    "title": "GitHub - myspace/page-previewer: Node web page preview",
+    "description": "page-previewer - Node web page preview",
+    "contentType": "text/html",
+    "mediaType": "object",
+    "images": [
+      "https://avatars0.githubusercontent.com/u/133458?v=4&amp;s=400"
+    ]
+  },
+  {
+   "url":"http://mmajunkie.com/2017/07/floyd-mayweather-underhanded-tactics-conor-mcgregor-victor-ortiz",
+   "loadFailed":false,
+   "title":"Floyd Mayweather prone to underhanded tactics; should Conor McGregor be worried? | MMAjunkie",
+   "description":"Some are focused on whether Conor McGregor would resort to using MMA. But what about Floyd Mayweather's history of underhanded tactics?",
+   "contentType":"text/html",
+   "mediaType":"article",
+   "images":[
+      "https://usatmmajunkie.files.wordpress.com/2017/07/floyd-mayweather-victor-ortiz.jpg"
+    ]
+  },
+  {
+    "url": "http://mmajunkie.com/",
+    "loadFailed": false,
+    "title": "MMAjunkie | UFC and MMA news, rumors, live blogs and videos",
+    "description": "UFC and MMA news, rumors, live blogs and videos",
+    "contentType": "text/html",
+    "mediaType": "website",
+    "images": [
+      "http://0.gravatar.com/blavatar/2bca1d844f05b69f1f0b535fc8139f0b?s=200&amp;ts=1500459765"
+    ]
+  },
+  {
+    "url": "https://github.com/myspace/page-previewer",
+    "loadFailed": false,
+    "title": "GitHub - myspace/page-previewer: Node web page preview",
+    "description": "page-previewer - Node web page preview",
+    "contentType": "text/html",
+    "mediaType": "object",
+    "images": [
+      "https://avatars0.githubusercontent.com/u/133458?v=4&amp;s=400"
+    ]
+  }
 ]

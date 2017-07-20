@@ -9,13 +9,13 @@ class Snappyshare {
     this.app = app;
   }
 
-	/**
+  /**
      * Main entry point into the controller
      * @param {object} req - The request object.
      * @param {object} res - The response object.
      * @return {object} response - the response object.
     */
-	main(req, res, next) {
+  main(req, res, next) {
     res.sendFile(__dirname + '/public/index.html');
   }
 

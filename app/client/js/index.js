@@ -10,11 +10,11 @@ import store from './store';
 const style = require('../sass/main.scss');
 
 ReactDOM.render((
-	<Provider store={store}>
-		<Router history={browserHistory}>
-			<Route path="/" component={App}>
-				<IndexRoute component={Home} />
-			</Route>
-		</Router>
-	</Provider>
+  <Provider store={store}>
+    <Router history={browserHistory}>
+      <Route path="/" component={App}>
+        <IndexRoute component={Home} />
+      </Route>
+    </Router>
+  </Provider>
 ), document.getElementById('app'));

@@ -6,9 +6,9 @@ const preview = require("page-previewer");
 module.exports = (app) => {
 
   app.get('/', (req, res, next) => {
-		const controller = new Snappyshare(app);
-		return controller.main(req, res, next);
-	});
+    const controller = new Snappyshare(app);
+    return controller.main(req, res, next);
+  });
 
   app.get('/meta', (req, res, next) => {
     var url = "https://cdn.vox-cdn.com/thumbor/ZIspYmVlXr6shMEkTlktICoDjzU=/0x0:1920x1280/1200x800/filters:focal(862x123:1168x429)/cdn.vox-cdn.com/uploads/chorus_image/image/55721909/013_Mayweather_vs_McGregor_Press_Conference.0.jpg";
@@ -20,7 +20,7 @@ module.exports = (app) => {
       if(!err) {
         res.send(data);
       }
-    });    
+    });
   });
 
   // heartbeat route
