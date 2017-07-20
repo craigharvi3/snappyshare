@@ -1,16 +1,26 @@
+/* Libs styling */
+@import
+  '../../../node_modules/alertifyjs/build/css/alertify.min.css'
+  ;
+
+/* Our styling */
 @import
   'partials/reset',
   'partials/variables',
   'partials/header',
   'partials/form',
+  'partials/button',
   'partials/links'
   ;
+
+
 
 body {
   background: $white;
   color: $grey;
   font-family: $fontFamily;
   font-size: 15px;
+  padding-top: 100px;
 }
 
 * {
@@ -54,4 +64,11 @@ img {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.ajs-message {
+  color: $white;
+  width: 300px !important;
+  right: 300px !important;
+  text-align: center;
 }

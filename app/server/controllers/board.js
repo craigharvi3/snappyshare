@@ -1,6 +1,6 @@
 var path = require('path');
 
-class Snappyshare {
+class Board {
 
   /**
   * Our constructor will pull in the app object
@@ -24,4 +24,4 @@ class Snappyshare {
 }
 
 
-module.exports = Snappyshare;
+module.exports = Board;

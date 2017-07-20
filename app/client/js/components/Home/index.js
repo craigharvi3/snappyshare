@@ -12,18 +12,15 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   onLoad: (payload) => dispatch({type: 'HOME_PAGE_LOADED', payload}),
-  updateLink: (link) => dispatch({type: 'LINK_UPDATED', link: link})
+  updateLink: (link) => dispatch({type: 'LINK_UPDATED', link: link}),
+  addLink: (linkJson) => dispatch({type: 'LINK_ADD', linkJson: linkJson})
 });
 
 class Home extends React.Component {
-  componentWillMount() {
-    this.props.onLoad(data.Links.all());
-  }
-
   render() {
     return (
       <div className="container page">
-        <LinkInput link={this.props.link} updateLink={this.props.updateLink} />
+        <LinkInput link={this.props.link} updateLink={this.props.updateLink} addLink={this.props.addLink} />
         <LinkList links={this.props.links} />
       </div>
     );

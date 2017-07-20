@@ -1,7 +1,9 @@
+var alertify = require('alertifyjs');
+
 const defaultState = {
   appName: 'snappyshare',
-  links: null,
-  link: "https://www.mmafighting.com/2017/7/19/15999584/ufc-fight-night-113-medical-suspensions-gunnar-nelson-out-45-days-after-ko-loss"
+  links: [],
+  link: ""
 };
 
 const reducer = function(state = defaultState, action) {
@@ -10,6 +12,12 @@ const reducer = function(state = defaultState, action) {
       return { ...state, links: action.payload.links };
     case 'LINK_UPDATED':
       return { ...state, link: action.link };
+    case 'LINK_ADD':
+      console.log(state.links);
+      let links = state.links.slice(0);
+      links.push(action.linkJson);
+      alertify.notify('Successfully added link', 'success', 5);
+      return { ...state, links: links, link: ''}
     default:
       return state;
   }

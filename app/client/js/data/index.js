@@ -1,9 +1,15 @@
 const data = require('./dummy.json');
+const AjaxPromise = require('ajax-promise');
 
 const Links = {
-  all: () => {
+  all: (boardId) => {
     return new Promise((resolve, reject) => {
-      resolve({links: []});
+      AjaxPromise
+        .get(`/api/board/${boardId}`)
+        .then((links) => {
+          resolve({links: links});
+        });
+
     });
   }
 };

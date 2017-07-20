@@ -1,9 +1,13 @@
 const express = require('express');
 const routes = require('./app/server/routes');
+const bodyParser = require('body-parser');
 
 // Start express
 const app = express();
 
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 app.use(express.static('public'));
 
 routes(app);
