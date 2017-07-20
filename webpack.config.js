@@ -1,7 +1,5 @@
 'use strict';
 
-var path = require('path');
-var webpack = require('webpack');
 var autoprefixer = require('autoprefixer');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
@@ -36,8 +34,8 @@ module.exports = {
         )
       },
       {
-        test: /\.json$/, 
-        loader: 'json' 
+        test: /\.json$/,
+        loader: 'json'
       }
     ]
   },

@@ -20,8 +20,7 @@ class App extends React.Component {
     AjaxPromise
       .post('/api/board', {data: this.props.links})
       .then(function (response) {
-        // window.location.href = `/board/${boardId}`;
-        console.log(response);
+        window.location.href = `/board/${boardId}`;
       });
   }
 

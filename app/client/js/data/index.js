@@ -1,4 +1,3 @@
-const data = require('./dummy.json');
 const AjaxPromise = require('ajax-promise');
 
 const Links = {

@@ -5,10 +5,10 @@ const bodyParser = require('body-parser');
 // Start express
 const app = express();
 
+app.use(express.static('public'));
 app.use(bodyParser.urlencoded({
   extended: true
 }));
-app.use(express.static('public'));
 
 routes(app);
 
