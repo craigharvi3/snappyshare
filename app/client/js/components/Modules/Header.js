@@ -19,9 +19,9 @@ class Header extends React.Component {
     return (
       <nav className="navbar navbar-light">
         <div className="container group">
-          <Link to="/" className="navbar-brand">
+          <a href="/" className="navbar-brand">
             {this.props.appName.toLowerCase()}
-         </Link>
+          </a>
          {button}
         </div>
       </nav>

@@ -1,6 +1,5 @@
 const Snappyshare = require('./controllers/snappyshare');
 const Board = require('./controllers/board');
-const scrape = require('html-metadata');
 const isImage = require('is-image');
 const preview = require("page-previewer");
 const MongoClient = require('mongodb').MongoClient;

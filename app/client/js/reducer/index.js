@@ -13,7 +13,6 @@ const reducer = function(state = defaultState, action) {
     case 'LINK_UPDATED':
       return { ...state, link: action.link };
     case 'LINK_ADD':
-      console.log(state.links);
       let links = state.links.slice(0);
       links.push(action.linkJson);
       alertify.notify('Successfully added link', 'success', 5);
